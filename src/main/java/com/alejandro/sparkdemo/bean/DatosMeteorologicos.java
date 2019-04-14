@@ -192,4 +192,18 @@ public class DatosMeteorologicos {
 		Gust_Level = gust_Level;
 	}
 
+	@Override
+	public String toString() {
+		return "DatosMeteorologicos [No=" + No + ", Time=" + Time + ", Interval=" + Interval + ", Indoor_Humidity="
+				+ Indoor_Humidity + ", Indoor_Temperature=" + Indoor_Temperature + ", Outdoor_Humidity="
+				+ Outdoor_Humidity + ", Outdoor_Temperature=" + Outdoor_Temperature + ", Absolute_Pressure="
+				+ Absolute_Pressure + ", Wind=" + Wind + ", Gust=" + Gust + ", Direction=" + Direction
+				+ ", Relative_Pressure=" + Relative_Pressure + ", Dewpoint=" + Dewpoint + ", Windchill=" + Windchill
+				+ ", Hour_Rainfall=" + Hour_Rainfall + ", a24_hour_Rainfall=" + a24_hour_Rainfall + ", Week_Rainfall="
+				+ Week_Rainfall + ", Month_Rainfall=" + Month_Rainfall + ", Total_Rainfall=" + Total_Rainfall
+				+ ", Wind_Level=" + Wind_Level + ", Gust_Level=" + Gust_Level + "]";
+	}
+	
+	
+
 }
